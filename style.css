@@ -1,0 +1,432 @@
+@charset "UTF-8";
+/* CSS Document*/
+/*to review media types, go to: http://www.w3schools.com/css/css_mediatypes.asp */
+
+@media all	{
+	
+	#nav a {
+		z-index:200;
+		font-size: 1.5em;
+		padding-left: .6em;
+		padding-right: .6em;
+		padding-top:0em;
+		color: black;
+		text-decoration: none;
+	}
+
+	#nav a:hover {
+		z-index:200;
+		color: gray;
+	} 
+
+	.backdrop	{
+		background-color:#0890D9;
+		/*background-color:#0A5DA2;*/
+		width:100%;
+		height:100%;
+		padding:0em;
+		margin:0em;
+	}
+	
+	#body	{
+		z-index:0;
+		margin-top:10%;
+		position:relative;
+		margin-top:2em;
+		font-color:black;
+		padding-bottom:1em;
+	}
+	
+	#body div	{
+		z-index:1;
+		/* Adds shadow to the bottom of the bar */
+		-webkit-box-shadow: 0em 0em 8px 0em #000000;
+		-moz-box-shadow: 0em 0em 8px 0em #000000;
+		box-shadow: 0em 0em 8px 0em #000000;
+		width:96%;
+		margin-left:1%;
+		margin-right:2.5%;
+		padding:1em;
+		font-family: tohoma,arial,helvetica, san-serif;
+		background:rgba(9,115,172,.5);
+	}
+	
+	#body h1	{
+		padding-left:0.35em;
+		padding-bottom:0.1em;
+	}
+	
+	#body p	{
+		z-index:2;
+		color:#243036;
+	}
+	
+	#body a	{
+		color:#243036;
+	}
+	
+	#body a:hover	{
+		color:gray;
+	}
+	
+	img #ham:hover, #ham:focus > ul#navdrawer{
+			display: block;
+	}
+	
+	#foot	{
+		bottom:0;
+		left:0;
+		right:0;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		padding-top: .7em;
+		padding-bottom: .7em;
+		/* Adds shadow to the bottom of the bar */
+		-webkit-box-shadow: 0em 0em 8px 0em #000000;
+		-moz-box-shadow: 0em 0em 8px 0em #000000;
+		box-shadow: 0em 0em 8px 0em #000000;
+		/* Adds the transparent background */
+		background-color: rgba(9, 115, 172, 1);	
+	}
+	
+	#cal	{
+		height:71.1%;
+		height:71.1vh;
+	}
+	
+	#calframe	{
+		-webkit-box-shadow: 0em 0em 8px 0em #000000;
+		-moz-box-shadow: 0em 0em 8px 0em #000000;
+		box-shadow: 0em 0em 8px 0em #000000;
+	}
+	
+	#vid	{
+		-webkit-box-shadow: 0em 0em 8px 0em #000000;
+		-moz-box-shadow: 0em 0em 8px 0em #000000;
+		box-shadow: 0em 0em 8px 0em #000000;
+		width:100%;
+		max-width:848px;
+		height:50vw;
+		max-height:480px;
+	}
+
+	/* gets the actual input out of the way; 
+	we're going to style the label instead */ 
+
+	#drawer-toggle	{ 
+		position: absolute; 
+		opacity: 0; 
+	}
+	
+	#drawer-toggle-label	{ 
+		-webkit-touch-callout: none; 
+		-webkit-user-select: none; 
+		-khtml-user-select: none; 
+		-moz-user-select: none; 
+		-ms-user-select: none; 
+		user-select: none; 
+		left: 0px; 
+		height:50px; 
+		width: 50px; 
+		display: block; 
+		position: fixed; 
+		background: rgba(255,255,255,.0); 
+		z-index: 200; 
+	} 
+	
+	#drawer-toggle-label { 
+		-webkit-touch-callout: none; 
+		-webkit-user-select: none; 
+		-khtml-user-select: none; 
+		-moz-user-select: none; 
+		-ms-user-select: none; 
+		user-select: none; 
+		top:-.4em;
+		left: 0px; 
+		height:50px; 
+		width: 50px; 
+		display: block; 
+		position: fixed; 
+		background: rgba(255,255,255,.0); 
+		z-index: 200; 
+	} 
+
+	/* adds our "hamburger" menu icon */ 
+
+	#drawer-toggle-label:before { 
+		content: ''; 
+		display: block; 
+		position: absolute; 
+		height: 2px; 
+		width: 24px; 
+		background: #243036; 
+		left: 13px; 
+		top: 18px; 
+		box-shadow: 0 6px 0 #243036, 0 12px 0 #243036; 
+		z-index:200;
+	} 
+
+	header { 
+		width: 100%; 
+		position: fixed; 
+		left: 0px; 
+		background: rgba(0,0,0,0);
+		padding: 10px 10px 10px 50px; 
+		font-size: 30px; 
+		line-height: 30px; 
+		z-index: 200; 
+	}
+	
+	/* drawer menu pane - note the 0px width */ 
+
+	#drawer { 
+		position: fixed; 
+		top: 0; 
+		left:-300px; 
+		height: 100%; 
+		width: 300px; 
+		background: #243036; /**/
+		overflow-x: hidden; 
+		overflow-y: hidden; 
+		padding: 20px; 
+		-webkit-overflow-scrolling: touch; 
+		z-index:200;
+	} 
+
+	/* actual page content pane */ 
+
+	#page-content { 
+		margin-left: 0px; 
+		margin-top: 50px; 
+		width: 100%; 
+		height: calc(100% - 50px); 
+		overflow-x:hidden; 
+		overflow-y:scroll; 
+		-webkit-overflow-scrolling: touch; 
+		padding: 20px; 
+		z-index:200;
+	}
+	
+	#donate	{
+		padding-right:1em; 
+		padding-left:1em;
+	}
+}
+
+/*covers everything but mobile/small screen, and accessibility*/
+@media screen and (min-width:767px), print, projection, tty, tv	{
+	#nav {
+		z-index:198;
+		position: fixed;
+		top: 0;
+		left:0;
+		right:0;
+		width: 100%;
+		height: 2.3em;
+		text-align: center;
+		padding-top: .7em;
+		/* Adds shadow to the bottom of the bar */
+		-webkit-box-shadow: 0em 0em 8px 0em #000000;
+		-moz-box-shadow: 0em 0em 8px 0em #000000;
+		box-shadow: 0em 0em 8px 0em #000000;
+		/* Adds the transparent background */
+		background-color: rgba(9, 115, 172, 1);
+		color: rgba(9, 115, 172, 1);
+	}
+
+	.body	{
+		z-index:0;
+		margin-top:10%;
+		position:relative;
+		margin-top:2em;
+		font-color:black;
+	}
+	
+	#drawer-toggle, #drawer-toggle-label, #drawer, #draweritem	{
+		display:none;
+	}
+	
+	#title	{
+		padding:0px;
+		font-size:2em;
+		font-weight:bold;
+		line-height:0%;
+		margin-top:.35em;
+		margin-bottom:0.6em;
+	}
+	
+	#date	{
+		font-size:.8em;
+		padding:0px;
+		line-height:0%;
+		font-weight:bold;
+	}
+	
+	#entry	{
+		font-size:1.2em;
+		margin-top:.5em;
+		margin-bottom:.25em;
+		text-indent:1.6em;
+	}
+	
+	#donate	{
+		text-align:right;
+	}
+	
+	#don	{
+		-webkit-align-self: right; /* Safari 7.0+ */
+		align-self: right;
+	}
+}
+
+/*Small screens and mobile devices.*/
+@media handheld, screen and (max-width:768px)	{
+	#nav {
+		z-index:198;
+		position: fixed;
+		top: 0;
+		left:0;
+		right:0;
+		width: 100%;
+		height: 2.3em;
+		text-align: center;
+		padding-top: .7em;
+		/* Adds shadow to the bottom of the bar */
+		-webkit-box-shadow: 0em 0em 8px 0em #000000;
+		-moz-box-shadow: 0em 0em 8px 0em #000000;
+		box-shadow: 0em 0em 8px 0em #000000;
+		/* Adds the transparent background */
+		background-color: rgba(9, 115, 172, 1);
+		color: rgba(9, 115, 172, 1);
+	}
+	
+	#nav a	{
+		display:none;
+	}
+	
+	#power	{
+		size:0;
+		width:0px;
+		height:0px;
+	}
+
+	.body	{
+		z-index:0;
+		margin-top:10%;
+		position:relative;
+		margin-top:2em;
+		font-color:black;
+	}
+	
+	#title	{
+		padding:0px;
+		font-size:2em;
+		font-weight:bold;
+		line-height:1em;
+		margin-top:.35em;
+	}
+	
+	#date	{
+		font-size:.8em;
+		padding:0px;
+		line-height:1em;
+		font-weight:bold;
+	}
+	
+	#entry	{
+		font-size:1.2em;
+		margin-top:.5em;
+		margin-bottom:.25em;
+		text-indent:1.6em;
+	}
+
+	/* Navigation Drawer. Don't touch. */ 
+
+	#drawer-toggle:checked ~ #drawer-toggle-label { 
+		height: 100%; 
+		width: 50px; 
+	} 
+	
+	*	{ 
+		-webkit-box-sizing: border-box; 
+		-moz-box-sizing: border-box; 
+		-o-box-sizing: border-box; 
+		box-sizing: border-box; 
+		/* adds animation for all transitions */ 
+		-webkit-transition: .25s ease-in-out; 
+		-moz-transition: .25s ease-in-out; 
+		-o-transition: .25s ease-in-out; 
+		transition: .25s ease-in-out; 
+		margin: 0; 
+		padding: 0; 
+		-webkit-text-size-adjust: none; 
+	} 
+	/* checked styles (menu open state) */ 
+
+	#drawer-toggle:checked ~ #drawer-toggle-label { 
+		height: 100%; 
+		width: calc(100% - calc(60% - 50px)); 
+		max-width: calc(100% - 200px);
+		z-index:200;
+	} 
+
+	#drawer-toggle:checked ~ #drawer { 
+		left: 0px;  
+		z-index:200;
+		width: calc(60% - 50px); 
+		min-width:190px;
+		padding: 20px;
+	} 
+
+	#drawer-toggle:checked ~ #content	{ 
+		background-color:rgba(99, 99, 99, 0.5);
+	}
+	
+	/* Menu item styles */ 
+
+	#drawer ul { 
+		list-style-type:none;  
+		z-index:200;
+	} 
+
+	#drawer ul a { 
+		display:block; 
+		padding:10px; 
+		color:white;
+		text-decoration:none;  
+		z-index:200;
+	} 
+
+	#drawer ul a:hover { 
+		color:gray;
+		z-index:200;
+	} 
+	
+	#donate	{
+		text-align:center;
+	}		
+	
+	#don	{
+		-webkit-align-self: center; /* Safari 7.0+ */
+		align-self: center;
+	}
+}
+
+/*Special cases on drawer scaling */
+
+@media (min-width:401px)	{
+	#drawer-toggle:checked ~ #drawer-toggle-label, 
+	#drawer-toggle:checked ~ header { 
+		left: calc(60% - 50px);
+		z-index:200;
+	} 
+}
+
+@media (max-width:400px)	{
+	#drawer-toggle:checked ~ #drawer-toggle-label, 
+	#drawer-toggle:checked ~ header { 
+		left: 190px;
+		z-index:200;
+	} 
+}
