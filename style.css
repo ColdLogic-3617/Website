@@ -377,10 +377,14 @@
 		width: calc(60% - 50px); 
 		min-width:190px;
 		padding: 20px;
-	} 
-
-	#drawer-toggle:checked ~ #content	{ 
-		background-color:rgba(99, 99, 99, 0.5);
+	}
+	
+	#drawer-toggle:checked ~ * {
+		-webkit-filter: grayscale(50%);
+		-moz-filter: grayscale(50%);
+		-ms-filter: grayscale(50%);
+		-o-filter: grayscale(50%);
+		filter: grayscale(50%);
 	}
 	
 	/* Menu item styles */ 
