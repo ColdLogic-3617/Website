@@ -387,6 +387,10 @@
 		filter: grayscale(50%);
 	}
 	
+	#drawer-toggle:checked ~ .backdrop, #drawer-toggle:checked ~ #content {
+		background-color:rgba(99, 99, 99, 0.5);
+	}
+	
 	/* Menu item styles */ 
 
 	#drawer ul { 
