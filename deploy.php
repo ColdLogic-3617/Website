@@ -31,7 +31,7 @@ if (!defined('SECRET_ACCESS_TOKEN')) define('SECRET_ACCESS_TOKEN', 'TeamColdLogi
  *
  * @var string
  */
-if (!defined('REMOTE_REPOSITORY')) define('REMOTE_REPOSITORY', 'http://github.com/ColdLogic-3617/Website.git');
+if (!defined('REMOTE_REPOSITORY')) define('REMOTE_REPOSITORY', 'https://github.com/ColdLogic-3617/Website.git');
 /**
  * The branch that's being deployed.
  * Must be present in the remote repository.
