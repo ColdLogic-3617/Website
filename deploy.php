@@ -23,7 +23,7 @@ if (file_exists(basename(__FILE__, '.php').'-config.php')) require_once basename
  *
  * @var string
  */
-if (!defined('SECRET_ACCESS_TOKEN')) define('SECRET_ACCESS_TOKEN', 'BetterChangeMeNowOrSufferTheConsequences');
+if (!defined('SECRET_ACCESS_TOKEN')) define('SECRET_ACCESS_TOKEN', 'TeamColdLogic3617IAmTheEggman');
 /**
  * The address of the remote Git repository that contains the code that's being
  * deployed.
@@ -31,7 +31,7 @@ if (!defined('SECRET_ACCESS_TOKEN')) define('SECRET_ACCESS_TOKEN', 'BetterChange
  *
  * @var string
  */
-if (!defined('REMOTE_REPOSITORY')) define('REMOTE_REPOSITORY', 'https://github.com/markomarkovic/simple-php-git-deploy.git');
+if (!defined('REMOTE_REPOSITORY')) define('REMOTE_REPOSITORY', 'http://github.com/ColdLogic-3617/Website.git');
 /**
  * The branch that's being deployed.
  * Must be present in the remote repository.
@@ -45,7 +45,7 @@ if (!defined('BRANCH')) define('BRANCH', 'master');
  *
  * @var string Full path including the trailing slash
  */
-if (!defined('TARGET_DIR')) define('TARGET_DIR', '/tmp/simple-php-git-deploy/');
+if (!defined('TARGET_DIR')) define('TARGET_DIR', '/home/gappleto/pub/');
 /**
  * Whether to delete the files that are not in the repository but are on the
  * local (server) machine.
@@ -67,7 +67,7 @@ if (!defined('DELETE_FILES')) define('DELETE_FILES', false);
  * @var serialized array of strings
  */
 if (!defined('EXCLUDE')) define('EXCLUDE', serialize(array(
-	'.git',
+	'.git','.php',
 )));
 /**
  * Temporary directory we'll use to stage the code before the update. If it
