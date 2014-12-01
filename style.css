@@ -111,6 +111,26 @@
 		max-height:480px;
 	}
 
+	#pic	{
+		-webkit-box-shadow: 0em 0em 8px 0em #000000;
+		-moz-box-shadow: 0em 0em 8px 0em #000000;
+		box-shadow: 0em 0em 8px 0em #000000;
+		width:100%;
+		max-width:848px;
+		height:50vw;
+		max-height:480px;
+	}	
+	
+	#pic4x3	{
+		-webkit-box-shadow: 0em 0em 8px 0em #000000;
+		-moz-box-shadow: 0em 0em 8px 0em #000000;
+		box-shadow: 0em 0em 8px 0em #000000;
+		width:100%;
+		max-width:640px;
+		height:68.5vw;
+		max-height:480px;
+	}	
+	
 	/* gets the actual input out of the way; 
 	we're going to style the label instead */ 
 
@@ -377,17 +397,9 @@
 		width: calc(60% - 50px); 
 		min-width:190px;
 		padding: 20px;
-	}
-	
-	#drawer-toggle:checked ~ * {
-		-webkit-filter: grayscale(50%);
-		-moz-filter: grayscale(50%);
-		-ms-filter: grayscale(50%);
-		-o-filter: grayscale(50%);
-		filter: grayscale(50%);
-	}
-	
-	#drawer-toggle:checked ~ .backdrop, #drawer-toggle:checked ~ #content {
+	} 
+
+	#drawer-toggle:checked ~ #content	{ 
 		background-color:rgba(99, 99, 99, 0.5);
 	}
 	
