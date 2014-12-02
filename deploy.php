@@ -18,7 +18,7 @@
 $LOCAL_ROOT         = "/home/gappleto";
 $LOCAL_REPO_NAME    = "pub";
 $LOCAL_REPO         = "{$LOCAL_ROOT}/{$LOCAL_REPO_NAME}";
-$REMOTE_REPO        = "git@github.com:ColdLogic-3617/Website.git";
+$REMOTE_REPO        = "https://github.com/ColdLogic-3617/Webiste.git";
 $BRANCH             = "master";
 
 if ( $_POST['payload'] ) {
