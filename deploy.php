@@ -30,7 +30,7 @@ if( file_exists($LOCAL_REPO) ) {
 } else {
 
   // If the repo does not exist, then clone it into the parent directory
-  shell_exec("cd {$LOCAL_ROOT} && git clone {$REMOTE_REPO}");
+  shell_exec("cd {$LOCAL_ROOT} && git clone {$REMOTE_REPO} pub");
 
   die("done " . mktime());
 }
