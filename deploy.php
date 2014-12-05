@@ -8,6 +8,6 @@ $BRANCH             = "master";
 
 $output = shell_exec("cd {$LOCAL_REPO} && git pull");
 
-die(date('H:i:s Y-m-d', $_SERVER['REQUEST_TIME']) . "<br><pre>$output</pre>");
+die(date('H:i:s m-d-Y', $_SERVER['REQUEST_TIME']) . "<br><pre>$output</pre>");
 
 ?>
