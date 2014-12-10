@@ -251,7 +251,7 @@
 		color: rgba(9, 115, 172, 1);
 	}
 	
-	#body h1	{
+	#body h1, .body h1	{
 		padding-left:0.35em;
 		padding-bottom:0.1em;
 		padding-top:0.8em;
@@ -334,7 +334,7 @@
 		padding:0px;
 	}
 	
-	#body h1	{
+	#body h1, .body h1	{
 		padding-left:0.35em;
 		padding-bottom:0.3em;
 		padding-top:0.3em;
