@@ -255,7 +255,6 @@
 		padding-left:0.35em;
 		padding-bottom:0.1em;
 		padding-top:0.8em;
-		margin-bottom:0.25em;
 	}
 
 	.body	{
@@ -270,7 +269,7 @@
 		display:none;
 	}
 	
-	#title	{
+	.title	{
 		padding:0px;
 		font-size:2em;
 		font-weight:bold;
@@ -279,14 +278,14 @@
 		margin-bottom:0.6em;
 	}
 	
-	#date	{
+	.date	{
 		font-size:.8em;
 		padding:0px;
 		line-height:0%;
 		font-weight:bold;
 	}
 	
-	#entry	{
+	.entry	{
 		font-size:1.2em;
 		margin-top:.5em;
 		margin-bottom:.25em;
@@ -349,7 +348,7 @@
 		font-color:black;
 	}
 	
-	#title	{
+	.title	{
 		padding:0px;
 		font-size:2em;
 		font-weight:bold;
@@ -357,14 +356,14 @@
 		margin-top:.35em;
 	}
 	
-	#date	{
+	.date	{
 		font-size:.8em;
 		padding:0px;
 		line-height:1em;
 		font-weight:bold;
 	}
 	
-	#entry	{
+	.entry	{
 		font-size:1.2em;
 		margin-top:.5em;
 		margin-bottom:.25em;
