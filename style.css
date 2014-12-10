@@ -34,7 +34,7 @@
 		position:relative;
 		margin-top:2em;
 		font-color:black;
-		padding-bottom:1em;
+		padding-bottom:0em;
 	}
 	
 	#body div,  .content_box	{
@@ -46,6 +46,7 @@
 		width:96%;
 		margin-left:1%;
 		margin-right:2.5%;
+		margin-bottom:1em;
 		padding:1em;
 		font-family: tohoma,arial,helvetica, san-serif;
 		background:rgba(9,115,172,.5);
