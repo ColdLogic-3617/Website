@@ -97,7 +97,7 @@
 		box-shadow: 0em 0em 8px 0em #000000;
 	}
 	
-	#vid	{
+	#vid, .vid	{
 		-webkit-box-shadow: 0em 0em 8px 0em #000000;
 		-moz-box-shadow: 0em 0em 8px 0em #000000;
 		box-shadow: 0em 0em 8px 0em #000000;
@@ -107,7 +107,7 @@
 		max-height:480px;
 	}
 
-	#pic	{
+	#pic, .pic	{
 		-webkit-box-shadow: 0em 0em 8px 0em #000000;
 		-moz-box-shadow: 0em 0em 8px 0em #000000;
 		box-shadow: 0em 0em 8px 0em #000000;
@@ -117,7 +117,7 @@
 		max-height:480px;
 	}	
 	
-	#pic4x3	{
+	#pic4x3, .pic4x3	{
 		-webkit-box-shadow: 0em 0em 8px 0em #000000;
 		-moz-box-shadow: 0em 0em 8px 0em #000000;
 		box-shadow: 0em 0em 8px 0em #000000;
