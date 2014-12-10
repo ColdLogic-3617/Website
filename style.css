@@ -34,10 +34,10 @@
 		position:relative;
 		margin-top:2em;
 		font-color:black;
-		padding-bottom:1em;
+		padding-bottom:10em;
 	}
 	
-	#body div	{
+	#body div,  .content_box	{
 		z-index:1;
 		/* Adds shadow to the bottom of the bar */
 		-webkit-box-shadow: 0em 0em 8px 0em #000000;
