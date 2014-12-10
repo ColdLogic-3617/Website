@@ -51,12 +51,6 @@
 		background:rgba(9,115,172,.5);
 	}
 	
-	#body h1	{
-		padding-left:0.35em;
-		padding-bottom:0.1em;
-		padding-top:3em;
-	}
-	
 	#body p	{
 		z-index:2;
 		color:#243036;
@@ -255,6 +249,12 @@
 		background-color: rgba(9, 115, 172, 1);
 		color: rgba(9, 115, 172, 1);
 	}
+	
+	#body h1	{
+		padding-left:0.35em;
+		padding-bottom:0.1em;
+		padding-top:0.8em;
+	}
 
 	.body	{
 		z-index:0;
@@ -331,6 +331,12 @@
 		width:0px;
 		height:0px;
 		padding:0px;
+	}
+	
+	#body h1	{
+		padding-left:0.35em;
+		padding-bottom:0.3em;
+		padding-top:0.3em;
 	}
 
 	.body	{
