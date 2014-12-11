@@ -290,10 +290,15 @@
 		margin-top:.5em;
 		margin-bottom:.25em;
 		text-indent:1.6em;
-		float:right;
 		display:inline;
 		text-align:left;
 		vertical-align:top;
+	}
+	
+	.pic4x3left	{
+		float:left;
+		margin-right:1em;
+		margin-bottom:1em;
 	}
 	
 	#donate	{
