@@ -4,6 +4,11 @@
 
 @media all	{
 	
+	.floatclear	{
+		visibility:collapse;
+		float:both;
+	}
+	
 	#nav a {
 		z-index:200;
 		font-size: 1.5em;
