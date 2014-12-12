@@ -4,10 +4,6 @@
 
 @media all	{
 	
-	.floatclear	{
-		clear:both;
-	}
-	
 	#nav a {
 		z-index:200;
 		font-size: 1.5em;
@@ -101,7 +97,7 @@
 		box-shadow: 0em 0em 8px 0em #000000;
 	}
 	
-	#vid, .vid	{
+	.vid	{
 		-webkit-box-shadow: 0em 0em 8px 0em #000000;
 		-moz-box-shadow: 0em 0em 8px 0em #000000;
 		box-shadow: 0em 0em 8px 0em #000000;
@@ -111,7 +107,7 @@
 		max-height:480px;
 	}
 
-	#pic, .pic	{
+	.pic	{
 		-webkit-box-shadow: 0em 0em 8px 0em #000000;
 		-moz-box-shadow: 0em 0em 8px 0em #000000;
 		box-shadow: 0em 0em 8px 0em #000000;
@@ -121,7 +117,7 @@
 		max-height:480px;
 	}	
 	
-	#pic4x3, .pic4x3, .pic4x3left	{
+	.pic4x3, .pic4x3left	{
 		-webkit-box-shadow: 0em 0em 8px 0em #000000;
 		-moz-box-shadow: 0em 0em 8px 0em #000000;
 		box-shadow: 0em 0em 8px 0em #000000;
@@ -255,7 +251,7 @@
 		color: rgba(9, 115, 172, 1);
 	}
 	
-	#body h1, .body h1	{
+	.body h1	{
 		padding-left:0.35em;
 		padding-bottom:0.1em;
 		padding-top:0.8em;
@@ -299,12 +295,12 @@
 		vertical-align:top;
 	}
 	
-	.pic4x3left	{
+/*	.pic4x3left	{
 		clear:left;
 		float:left;
 		margin-right:1em;
 		margin-bottom:1em;
-	}
+	} */
 	
 	#donate	{
 		text-align:right;
@@ -348,7 +344,7 @@
 		padding:0px;
 	}
 	
-	#body h1, .body h1	{
+	.body h1	{
 		padding-left:0.35em;
 		padding-bottom:0.3em;
 		padding-top:0.3em;
