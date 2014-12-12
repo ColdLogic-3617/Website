@@ -6,7 +6,7 @@
 	
 	.floatclear	{
 		visibility:collapse;
-		float:both;
+		clear:both;
 	}
 	
 	#nav a {
