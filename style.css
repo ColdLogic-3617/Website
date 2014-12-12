@@ -255,6 +255,7 @@
 		padding-left:0.35em;
 		padding-bottom:0.1em;
 		padding-top:0.8em;
+		margin-bottom:0;
 	}
 
 	#body, .body	{
@@ -476,4 +477,16 @@
 		left: 190px;
 		z-index:200;
 	} 
+}
+
+@media (max-width:1199px)	{
+	.entry	{
+		display:block;
+	}
+}
+
+@media (min-width:1200px)	{
+	.entry	{
+		display:inline-block;
+	}
 }
