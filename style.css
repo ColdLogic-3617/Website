@@ -3,6 +3,10 @@
 /*to review media types, go to: http://www.w3schools.com/css/css_mediatypes.asp */
 
 @media all	{
+	/*Specified font for full document to maintain uniform appearance.*/
+	html * {
+		font-family: arial,helvetica, san-serif;
+	}
 	
 	#nav a {
 		z-index:200;
@@ -20,7 +24,7 @@
 	} 
 
 	.backdrop	{
-		background-color:#0890D9;
+		background-color:#fff;
 		/*background-color:#0A5DA2;*/
 		width:100%;
 		height:100%;
@@ -48,8 +52,8 @@
 		margin-right:2.5%;
 		margin-bottom:1em;
 		padding:1em;
-		font-family: tohoma,arial,helvetica, san-serif;
 		background:rgba(9,115,172,.5);
+		overflow: hidden;
 	}
 	
 	#body p	{
@@ -125,6 +129,8 @@
 		max-width:640px;
 		height:68.5vw;
 		max-height:480px;
+		float: left;
+		margin: 5px 25px 5px 5px;
 	}	
 	
 	/* gets the actual input out of the way; 
@@ -290,7 +296,6 @@
 		font-size:1.2em;
 		margin-top:.5em;
 		margin-bottom:.25em;
-		text-indent:1.6em;
 		display:inline;
 		text-align:left;
 		vertical-align:top;
@@ -378,7 +383,6 @@
 		font-size:1.2em;
 		margin-top:.5em;
 		margin-bottom:.25em;
-		text-indent:1.6em;
 	}
 
 	/* Navigation Drawer. Don't touch. */ 
@@ -453,6 +457,7 @@
 	
 	#donate	{
 		text-align:center;
+		cursor: pointer;
 	}		
 	
 	#don	{
@@ -477,16 +482,4 @@
 		left: 190px;
 		z-index:200;
 	} 
-}
-
-@media (max-width:1199px)	{
-	.entry	{
-		display:block;
-	}
-}
-
-@media (min-width:1200px)	{
-	.entry	{
-		display:inline-block;
-	}
 }
