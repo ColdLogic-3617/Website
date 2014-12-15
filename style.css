@@ -53,6 +53,7 @@
 		margin-bottom:1em;
 		padding:1em;
 		background:rgba(9,115,172,.5);
+		overflow: hidden;
 	}
 	
 	#body p	{
@@ -128,6 +129,8 @@
 		max-width:640px;
 		height:68.5vw;
 		max-height:480px;
+		float: left;
+		margin: 5px 25px 5px 5px;
 	}	
 	
 	/* gets the actual input out of the way; 
