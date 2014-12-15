@@ -262,7 +262,7 @@
 		color: rgba(9, 115, 172, 1);
 	}
 	
-	#body h1, .body h1	{
+	#body h1, .body h1, #body h3, .body h3	{
 		padding-left:0.35em;
 		padding-bottom:0.1em;
 		padding-top:0.8em;
