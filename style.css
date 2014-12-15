@@ -483,3 +483,12 @@
 		z-index:200;
 	} 
 }
+
+@media (max-width:1166px)	{
+	.pic4x3left	{
+		float:none;
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+	}
+}
