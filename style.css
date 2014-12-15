@@ -101,6 +101,11 @@
 		box-shadow: 0em 0em 8px 0em #000000;
 	}
 	
+	.entry	{
+		text-indent:1.5em;
+		text-align:justify;
+	}
+	
 	.vid	{
 		-webkit-box-shadow: 0em 0em 8px 0em #000000;
 		-moz-box-shadow: 0em 0em 8px 0em #000000;
