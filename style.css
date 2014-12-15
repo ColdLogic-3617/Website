@@ -457,12 +457,12 @@
 	
 	#donate	{
 		text-align:center;
-		cursor: pointer;
 	}		
 	
 	#don	{
 		-webkit-align-self: center; /* Safari 7.0+ */
 		align-self: center;
+		cursor: pointer;
 	}
 }
 
