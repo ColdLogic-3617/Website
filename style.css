@@ -24,7 +24,7 @@
 	} 
 
 	.backdrop	{
-		background-color:#fff;
+		background-color:#0890D9;
 		/*background-color:#0A5DA2;*/
 		width:100%;
 		height:100%;
@@ -99,6 +99,11 @@
 		-webkit-box-shadow: 0em 0em 8px 0em #000000;
 		-moz-box-shadow: 0em 0em 8px 0em #000000;
 		box-shadow: 0em 0em 8px 0em #000000;
+	}
+	
+	.entry	{
+		text-indent:1.5em;
+		text-align:justify;
 	}
 	
 	.vid	{
@@ -296,7 +301,7 @@
 		font-size:1.2em;
 		margin-top:.5em;
 		margin-bottom:.25em;
-		display:inline;
+		display:block;
 		text-align:left;
 		vertical-align:top;
 	}
@@ -315,6 +320,7 @@
 	#don	{
 		-webkit-align-self: right; /* Safari 7.0+ */
 		align-self: right;
+		cursor: pointer;
 	}
 }
 
@@ -457,7 +463,6 @@
 	
 	#donate	{
 		text-align:center;
-		cursor: pointer;
 	}		
 	
 	#don	{
@@ -482,4 +487,13 @@
 		left: 190px;
 		z-index:200;
 	} 
+}
+
+@media (max-width:925px)	{
+	.pic4x3left	{
+		float:none;
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+	}
 }
