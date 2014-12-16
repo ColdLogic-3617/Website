@@ -65,21 +65,17 @@
 		overflow: hidden;
 	}
 	
-	#body p	{
+	#body p, #body a	{
 		z-index:2;
 		color:#c4dbe1;
 	}
 	
-	#body a	{
-		color:#c4dbe1;
-	}
-	
 	#body a:hover	{
-		color:gray;
+		color:#777c81;
 	}
 	
 	img #ham:hover, #ham:focus > ul#navdrawer{
-			display: block;
+		display: block;
 	}
 	
 	#foot	{
