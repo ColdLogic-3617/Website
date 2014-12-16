@@ -34,16 +34,16 @@
 		height:100%;
 		padding:0em;
 		margin:0em;*/ background-color: #434343;
-		background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, from(#434343), to(#6F6F6F));
+		background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, from(#333333), to(#6F6F6F));
 
 		/* Safari 5.1+, Chrome 10+ */
-		background: -webkit-radial-gradient(50% 50%, closest-corner, #434343, #6F6F6F);
+		background: -webkit-radial-gradient(50% 50%, closest-corner, #333333, #6F6F6F);
 		
 		/* Firefox 3.6+ */
-		background: -moz-radial-gradient(50% 50%, closest-corner, #434343, #6F6F6F);
+		background: -moz-radial-gradient(50% 50%, closest-corner, #333333, #6F6F6F);
 		
 		/* IE 10 */
-		background: -ms-radial-gradient(50% 50%, closest-corner, #434343, #6F6F6F);
+		background: -ms-radial-gradient(50% 50%, closest-corner, #333333, #6F6F6F);
 		
 		/* Opera cannot do radial gradients yet */
 		
