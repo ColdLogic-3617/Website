@@ -23,7 +23,7 @@
 		color: gray;
 	} 
 	
-	a.email	{
+	a .email	{
 		font-style:italic;
 		text-decoration:none;
 	}
