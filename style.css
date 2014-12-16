@@ -33,20 +33,12 @@
 		width:100%;
 		height:100%;
 		padding:0em;
-		margin:0em;*/ background-color: #434343;
+		margin:0em;*/ 
+		background-color: #777c81;
 		background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, from(#777c81), to(#5786b2));
-
-		/* Safari 5.1+, Chrome 10+ */
 		background: -webkit-radial-gradient(50% 50%, closest-corner, #777c81, #5786b2);
-		
-		/* Firefox 3.6+ */
 		background: -moz-radial-gradient(50% 50%, closest-corner, #777c81, #5786b2);
-		
-		/* IE 10 */
 		background: -ms-radial-gradient(50% 50%, closest-corner, #777c81, #5786b2);
-		
-		/* Opera cannot do radial gradients yet */
-		
 	}
 	
 	#body	{
@@ -58,7 +50,7 @@
 		padding-bottom:0em;
 	}
 	
-	#body div,  .content_box	{
+	.content_box	{
 		z-index:1;
 		/* Adds shadow to the bottom of the bar */
 		-webkit-box-shadow: 0em 0em 8px 0em #000000;
@@ -69,7 +61,7 @@
 		margin-right:2.5%;
 		margin-bottom:1em;
 		padding:1em;
-		background:rgba(9,115,172,.4);
+		background:rgba(9,115,172,.375);
 		overflow: hidden;
 	}
 	
@@ -79,7 +71,7 @@
 	}
 	
 	#body a	{
-		color:#243036;
+		color:#c4dbf1;
 	}
 	
 	#body a:hover	{
