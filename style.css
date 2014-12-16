@@ -22,6 +22,11 @@
 		z-index:200;
 		color: gray;
 	} 
+	
+	a.email	{
+		font-style:italic;
+		text-decoration:none;
+	}
 
 	.backdrop	{
 		background-color:#0890D9;
