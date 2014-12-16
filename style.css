@@ -14,6 +14,7 @@
 	
 	li	{
 		color:#c4dbe1;
+		list-style-position: inside;
 	}
 	
 	#nav a {
@@ -340,9 +341,6 @@
 
 /*Small screens and mobile devices.*/
 @media handheld, screen and (max-width:768px)	{
-	li	{
-		list-style-position: inside;
-	}
 	#nav {
 		z-index:198;
 		position: fixed;
