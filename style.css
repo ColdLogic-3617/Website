@@ -12,6 +12,10 @@
 		color:#c4dbe1;
 	}
 	
+	li	{
+		color:#c4dbe1;
+	}
+	
 	#nav a {
 		z-index:200;
 		font-size: 1.5em;
@@ -336,6 +340,9 @@
 
 /*Small screens and mobile devices.*/
 @media handheld, screen and (max-width:768px)	{
+	li	{
+		list-style-position: inside;
+	}
 	#nav {
 		z-index:198;
 		position: fixed;
