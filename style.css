@@ -8,6 +8,10 @@
 		font-family: arial,helvetica, san-serif;
 	}
 	
+	h2	{
+		color:#c4dbe1;
+	}
+	
 	#nav a {
 		z-index:200;
 		font-size: 1.5em;
