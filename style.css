@@ -109,8 +109,7 @@
 	}
 	
 	#cal	{
-		height:69.5%;
-		height:69.5vh;
+		height:calc(100vh - 64px - 11.3em);
 	}
 	
 	#calframe	{
