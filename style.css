@@ -17,7 +17,7 @@
 		list-style-position: inside;
 	}
 	
-	li.entry	{
+	ul.entry, ol.entry	{
 		text-indent:0em;
 	}
 	
