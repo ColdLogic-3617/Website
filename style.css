@@ -17,6 +17,10 @@
 		list-style-position: inside;
 	}
 	
+	li.entry	{
+		text-indent:0em;
+	}
+	
 	#nav a {
 		z-index:200;
 		font-size: 1.5em;
