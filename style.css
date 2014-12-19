@@ -299,13 +299,17 @@
 		display:none;
 	}
 	
-	.title	{
+	.title, .subtitle	{
 		padding:0px;
 		font-size:2em;
 		font-weight:bold;
 		line-height:0%;
 		margin-top:.35em;
 		margin-bottom:0.6em;
+	}
+	
+	.subtitle	{
+		font-size: 1.5em;
 	}
 	
 	.date	{
@@ -389,12 +393,16 @@
 		font-color:black;
 	}
 	
-	.title	{
+	.title, .subtitle	{
 		padding:0px;
 		font-size:2em;
 		font-weight:bold;
 		line-height:1em;
 		margin-top:.35em;
+	}
+	
+	.subtitle	{
+		font-size:1.5em;
 	}
 	
 	.date	{
