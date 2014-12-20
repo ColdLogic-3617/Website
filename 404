@@ -30,7 +30,7 @@
 				<a href="schedule">Schedule</a>
 			</div>
 			<p style="text-align:center; padding-top:2.5em">
-				<img src="http://www.fimfiction-static.net/images/fatal-error.png" style="align-self:center" />
+				<img src="http://www.fimfiction-static.net/images/fatal-error.png" style="max-width:1000px;Width:100%"/>
 			</p>
 			<p class="subtitle" style="text-align:center">
 			  	404&mdash;Page not found
