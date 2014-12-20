@@ -29,15 +29,17 @@
 				<a href="blog">Blog &amp; Updates</a>
 				<a href="schedule">Schedule</a>
 			</div>
-			<p style="text-align:center; padding-top:2.5em">
-				<img src="http://www.fimfiction-static.net/images/fatal-error.png" style="max-width:1000px;Width:100%"/>
-			</p>
-			<p class="subtitle" style="text-align:center">
-			  	404&mdash;Page not found
-			</p>
-			<p class="entry" style="text-align:center">
-				Don't worry, though. We have our top unicorns working on it. Top. Unicorns.
-			</p>
+			<div class="body">
+				<p style="text-align:center; padding-top:2.5em">
+					<img src="http://www.fimfiction-static.net/images/fatal-error.png" style="max-width:1000px;Width:100%"/>
+				</p>
+				<p class="subtitle" style="text-align:center">
+					404&mdash;Page not found
+				</p>
+				<p class="entry" style="text-align:center">
+					Don't worry, though. We have our top unicorns working on it. Top. Unicorns.
+				</p>
+			</div>
 		</div>
 	</body>
 	<footer style="position: absolute; min-width: 97%; left: 1em; right: 1em; bottom: 0.5em;">
