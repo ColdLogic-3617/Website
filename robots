@@ -15,19 +15,19 @@
 		<div id="drawer">
 			<ul id="navdrawer">
 				<li id="draweritem"><a href="./">Home</a></li>
-				<li id="draweritem"><a href="about_us.html">About Us</a></li>
-				<li id="draweritem"><a href="robots.html">Our Robots</a></li>
-				<li id="draweritem"><a href="blog.html">Blog &amp; Updates</a></li>
-				<li id="draweritem"><a href="schedule.html">Schedule</a></li>
+				<li id="draweritem"><a href="about_us">About Us</a></li>
+				<li id="draweritem"><a href="robots">Our Robots</a></li>
+				<li id="draweritem"><a href="blog">Blog &amp; Updates</a></li>
+				<li id="draweritem"><a href="schedule">Schedule</a></li>
 			</ul>
 		</div>
 		<div id="content">
 			<div id="nav">
 				<a href="./">Home</a>
-				<a href="about_us.html">About Us</a>
-				<a href="robots.html">Our Robots</a>
-				<a href="blog.html">Blog &amp; Updates</a>
-				<a href="schedule.html">Schedule</a>
+				<a href="about_us">About Us</a>
+				<a href="robots">Our Robots</a>
+				<a href="blog">Blog &amp; Updates</a>
+				<a href="schedule">Schedule</a>
 			</div>
 			<div id="body">
 				<h1>
