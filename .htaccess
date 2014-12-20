@@ -1,6 +1,0 @@
-# remove trailing slash
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule (.*)/$ /$1 [L,R=301]
-# add trailing slash
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule .*[^/]$ /$0/ [L,R=301]
