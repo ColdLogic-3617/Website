@@ -153,7 +153,18 @@
 		max-height:480px;
 		float: left;
 		margin: 5px 25px 5px 5px;
-	}	
+	}
+	
+	.pic4x5	{
+		-webkit-box-shadow: 0em 0em 8px 0em #000000;
+		-moz-box-shadow: 0em 0em 8px 0em #000000;
+		box-shadow: 0em 0em 8px 0em #000000;
+		width:100%;
+		max-width:600px;
+		height:62.5vw;
+		max-height:480px;
+		margin: 5px 25px 5px 5px;
+	}
 	
 	/* gets the actual input out of the way; 
 	we're going to style the label instead */ 
