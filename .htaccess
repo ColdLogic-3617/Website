@@ -1,3 +1,6 @@
 ErrorDocument 404 http://euclid.nmu.edu/~gappleto/404
 ErrorDocument 403 http://euclid.nmu.edu/~gappleto/403
 ErrorDocument 500 /home/gappleto/pub/500
+RewriteEngine  on
+RewriteBase    /~gappleto/
+RewriteRule    ^foo$  foo/  [R]
