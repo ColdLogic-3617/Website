@@ -30,14 +30,11 @@
 				<a href="schedule">Schedule</a>
 			</div>
 			<div class="body">
-				<p style="text-align:center; padding-top:2.5em">
-					<img src="http://i1.kym-cdn.com/photos/images/original/000/630/890/ba7.png" style="max-width:1000px;Width:100%"/>
-				</p>
 				<p class="subtitle" style="text-align:center">
 					403&mdash;Access Denied.
 				</p>
-				<p class="entry" style="text-align:center;text-indent:0">
-					Don't worry, though. There's scary things in here. You don't wanna go there.
+				<p style="text-align:center; padding-top:2.5em">
+					<img src="http://i1.kym-cdn.com/photos/images/original/000/630/890/ba7.png" style="max-width:1000px;Width:100%"/>
 				</p>
 			</div>
 		</div>
