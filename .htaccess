@@ -1,4 +1,2 @@
 ErrorDocument 404 http://euclid.nmu.edu/~gappleto/404
 ErrorDocument 403 http://euclid.nmu.edu/~gappleto/403
-ErrorDocument 500 http://euclid.nmu.edu/~gappleto/500
-aaaa
