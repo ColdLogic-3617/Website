@@ -31,7 +31,7 @@
 			</div>
 			<div class="body">
 				<p style="text-align:center; padding-top:2.5em">
-					<img src="http://i1.kym-cdn.com/photos/images/original/000/630/890/ba7.png" style="max-width:100%;height:calc(100% - 64px - 6.85em)"/>
+					<img class="pic5x4" src="http://i1.kym-cdn.com/photos/images/original/000/630/890/ba7.png" style="max-width:100%;height:calc(100% - 64px - 6.85em)"/>
 				</p>
 				<p class="subtitle" style="text-align:center">
 					403&mdash;Access Denied.
