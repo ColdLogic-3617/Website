@@ -31,7 +31,8 @@
 			</div>
 			<div class="body">
 				<p style="text-align:center; padding-top:2.5em">
-					<img src="http://www.fimfiction-static.net/images/fatal-error.png" style="max-width:1000px;Width:100%"/>
+					<img src="http://www.fimfiction-static.net/images/fatal-error.png" style="max-height: 720px;
+max-width: calc(720px * 5 / 4)"/>
 				</p>
 				<p class="subtitle" style="text-align:center">
 					404&mdash;Page not found
