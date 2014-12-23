@@ -131,6 +131,7 @@
 		max-width:848px;
 		height:50vw;
 		max-height:480px;
+		z-index: inherit;
 	}
 
 	.pic	{
