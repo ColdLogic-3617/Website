@@ -131,7 +131,6 @@
 		max-width:848px;
 		height:50vw;
 		max-height:480px;
-		z-index: inherit;
 	}
 
 	.pic	{
@@ -154,18 +153,7 @@
 		max-height:480px;
 		float: left;
 		margin: 5px 25px 5px 5px;
-	}
-	
-	.pic5x4	{
-		-webkit-box-shadow: 0em 0em 8px 0em #000000;
-		-moz-box-shadow: 0em 0em 8px 0em #000000;
-		box-shadow: 0em 0em 8px 0em #000000;
-		width:100%;
-		max-width:600px;
-		height:62.5vw;
-		max-height:480px;
-		margin: 5px 25px 5px 5px;
-	}
+	}	
 	
 	/* gets the actual input out of the way; 
 	we're going to style the label instead */ 
@@ -274,14 +262,13 @@
 @media screen and (min-width:767px), print, projection, tty, tv	{
 	#nav {
 		z-index:198;
-		position: fixed;
 		top: 0;
 		left:0;
 		right:0;
 		width: 100%;
 		height: 2.3em;
 		text-align: center;
-		padding-top: .7em;
+		padding-top: 0.7em;
 		/* Adds shadow to the bottom of the bar */
 		-webkit-box-shadow: 0em 0em 8px 0em #000000;
 		-moz-box-shadow: 0em 0em 8px 0em #000000;
@@ -291,10 +278,19 @@
 		color: rgba(9, 115, 172, 1);
 	}
 	
+	#smoother {
+		height: 3em;
+		}
+		
+	#home-head {
+		text-align: center;
+		color: #c4dbe1;
+		padding-bottom: 0.3em;
+		}
+
 	#body h1, .body h1	{
 		padding-left:0.35em;
 		padding-bottom:0.1em;
-		padding-top:0.8em;
 		margin-bottom:0;
 		color:#c4dbe1;
 	}
