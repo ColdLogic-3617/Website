@@ -48,7 +48,7 @@
 					<p class="title">
 						Team Cold Logic Mission Statement!
 					</p><p class="entry">
-						It is our shared vision that participation in FIRST serves as a mechanism for helping students and mentors reach higher levels of personal and academic achievement characteristically attained in competitive events outside of the classroom. Impacts of FRC on students include:
+						We strive to innovate and transform our ideas into a reality. Creating a diverse team out of local youth and mentors forming a proactive team that unites a family. It is our shared vision that participation in FIRST serves as a mechanism for helping students and mentors reach higher levels of personal and academic achievement characteristically attained in competitive events outside of the classroom. Impacts of FRC on students include:
 					</p>
 					<ul class="entry">
 						<li>
@@ -213,7 +213,7 @@
 						Community Outreach
 					</p>
 					<div class="content_box">
-						<p class="subtitle">
+						<p class="subtitle" id="Taiwan">
 							Taiwan Exchange
 						</p>
 						<p class="entry">

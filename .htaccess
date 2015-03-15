@@ -1,3 +1,3 @@
-ErrorDocument 403 http://euclid.nmu.edu/~gappleto/403
-ErrorDocument 404 http://euclid.nmu.edu/~gappleto/404
-ErrorDocument 500 http://euclid.nmu.edu/~gappleto/500
+ErrorDocument 403 http://www.coldlogic3617.org/403
+ErrorDocument 404 http://www.coldlogic3617.org/404
+ErrorDocument 500 http://www.coldlogic3617.org/500

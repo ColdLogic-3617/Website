@@ -50,6 +50,25 @@
 						<iframe class="vid" width="560" height="315" src="http://youtube.com/embed/[[video id]]?fs=1&autoplay=0&loop=0&rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
 					</div>
 				-->
+				<--
+				<div class="content_box">
+					<p class="title">
+						Permanent Hosting Achieved
+					</p>
+					<p class="date">
+						March 15<sup>th</sup>, 2015
+					</p>
+					<p class="entry">
+						We'd like to thank Jean Montgomery and actively helping us grow this team.
+					</p>
+					<p class="entry">
+						Speaking of libraries, we recently held an event at the Peter White Public Library, part of a coordinated campaign with robotics teams across the UP. We demonstrated our robot, <a href="robots#Bruce">Bruce</a> to the public, and tried to raise awareness of the program. But really, <a href="http://sunny.fm/featured/onair/the-8th-day/42112/robotics-team-cold-logic-gearing-up-for-competition/">Sunny 103.3</a> can cover it better.
+					</p>
+					<p class="entry">
+						We were also approached by Sunny 103.3 and Q107. They requested weekly updates on our progress, so that they can cover our progress as the year goes on. 
+					</p>
+					-->
+				</div>
 				<div class="content_box">
 					<p class="title">
 						Open Source!
@@ -72,14 +91,14 @@
 						October 16<sup>th</sup>, 2014
 					</p>
 					<p class="entry">
-						After four years, we have finally secured hosting for our website.  We'd like to thank the Northern Michigan University department of Mathematics &amp; Computer Science for allowing us to use their server.
+						After four years, we have finally secured hosting for our website.  We'd like to thank the Northern Michigan University department of Mathematics &amp; Computer Science for allowing us to temporarily use their server.
 						While we put the rest of the site together, there are still some things that you can do. If you go to the "<a href="schedule">Schedule</a>" section, you can see all our events, kept a few weeks ahead. Or if you scroll to the bottom, you can donate to our team. We're currently experimenting with <a href="https://bitcoin.org">Bitcoin</a>, so we would appreciate input.
 					</p>
 					<p class="entry">
 						Thank you for your time.
 					</p>
 				</div>
-				<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+				<br><br><br><br><br><br><br><br><br><br><br><br>
 			</div>
 		</div>
 	</body>

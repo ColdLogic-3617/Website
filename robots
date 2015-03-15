@@ -34,7 +34,7 @@
 					Time to meet the kids!
 				</h1>
 				<div class="content_box">
-					<p class="title">
+					<p class="title" id="Bruce">
 						Bruce
 					</p>
 					<p class="date">
@@ -58,7 +58,7 @@
 					</p>
 				</div>
 				<div class="content_box">
-					<p class="title">
+					<p class="title" id="SirKitt">
 						Sir Kitt
 					</p>
 					<p class="date">
@@ -82,7 +82,7 @@
 					</p>
 				</div>
 				<div class="content_box">
-					<p class="title">
+					<p class="title" id="BigRig">
 						Big Rig
 					</p>
 					<p class="date">
@@ -94,7 +94,7 @@
 					</p>
 				</div>
 				<div class="content_box">
-					<p class="title">
+					<p class="title" id="AndyMark">
 						AndyMark
 					</p>
 					<p class="date">
